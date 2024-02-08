@@ -30,11 +30,15 @@
             </div>
         </nav>
         </header>
+        <div class="container">
         <div class="pb-3">
             @RenderSection("title")
+            <hr/>
          </div>
-        <div class="container ">
+         <div>
             @RenderBody()
         </div>
+    </div>
+        @await RenderSectionAsync("Scripts", required: false)
     </body>
 </html>
