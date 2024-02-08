@@ -26,3 +26,4 @@ C:\Users\lisa\source\repos\MVC\Webapp\obj\Debug\net8.0\ref\Webapp.dll
 C:\Users\lisa\source\repos\MVC\Webapp\obj\Debug\net8.0\Webapp.RazorAssemblyInfo.cache
 C:\Users\lisa\source\repos\MVC\Webapp\obj\Debug\net8.0\Webapp.RazorAssemblyInfo.cs
 C:\Users\lisa\source\repos\MVC\Webapp\bin\Debug\net8.0\Webapp.staticwebassets.runtime.json
+C:\Users\lisa\source\repos\MVC\Webapp\obj\Debug\net8.0\Webapp.sourcelink.json

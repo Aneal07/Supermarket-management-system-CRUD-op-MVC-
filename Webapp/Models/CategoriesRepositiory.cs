@@ -12,7 +12,7 @@ namespace Webapp.Models
         };
 
         // CRUD operation 
-        public static void AddCaegory(Category category) 
+        public static void AddCategory(Category category) 
         {
             var maxId = _categories.Max(x => x.CategoryId);
             category.CategoryId = maxId + 1;

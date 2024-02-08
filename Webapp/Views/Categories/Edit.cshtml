@@ -6,8 +6,10 @@
     {
         <h3>Category: @Model.Name</h3>
     }
-
 }
+
+@if (Model != null)
+{
   <form method="post" asp-controller="categories" asp-action="edit">
         <input type="hidden" asp-for="CategoryId"/>
         <div class="tet-danger" asp-validation-summary="All"></div>
@@ -39,3 +41,4 @@
         </div>
     </div>
 </form>
+}
